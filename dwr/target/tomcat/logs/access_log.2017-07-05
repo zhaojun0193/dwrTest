@@ -1,0 +1,16 @@
+127.0.0.1 - - [05/Jul/2017:22:53:19 +0800] "GET / HTTP/1.1" 200 1114 http-bio-9090-exec-2 409
+127.0.0.1 - - [05/Jul/2017:22:53:19 +0800] "GET /dwr/engine.js HTTP/1.1" 200 67329 http-bio-9090-exec-3 19
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:22:53:19 +0800] "GET /dwr/interface/DwrPush.js HTTP/1.1" 200 351 http-bio-9090-exec-4 22
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:22:53:19 +0800] "POST /dwr/call/plaincall/__System.pageLoaded.dwr HTTP/1.1" 200 157 http-bio-9090-exec-6 5
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:22:53:20 +0800] "POST /dwr/call/plaincall/DwrPush.send.dwr HTTP/1.1" 200 78 http-bio-9090-exec-7 3
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:22:53:36 +0800] "GET / HTTP/1.1" 200 1110 http-bio-9090-exec-8 45
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:22:53:36 +0800] "GET /dwr/engine.js HTTP/1.1" 200 67329 http-bio-9090-exec-9 1
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:22:53:36 +0800] "GET /dwr/interface/DwrPush.js HTTP/1.1" 200 351 http-bio-9090-exec-10 3
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:22:53:36 +0800] "POST /dwr/call/plaincall/__System.pageLoaded.dwr HTTP/1.1" 200 157 http-bio-9090-exec-10 0
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:22:53:36 +0800] "POST /dwr/call/plaincall/DwrPush.send.dwr HTTP/1.1" 200 98 http-bio-9090-exec-9 1
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:22:54:17 +0800] "POST /dwr/call/plainpoll/ReverseAjax.dwr HTTP/1.1" 200 226 http-bio-9090-exec-1 60039
+127.0.0.1 - - [05/Jul/2017:22:54:19 +0800] "POST /dwr/call/plainpoll/ReverseAjax.dwr HTTP/1.1" 200 306 http-bio-9090-exec-5 60003
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:22:54:36 +0800] "POST /dwr/call/plainpoll/ReverseAjax.dwr HTTP/1.1" 200 252 http-bio-9090-exec-10 60003
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:22:55:36 +0800] "POST /dwr/call/plainpoll/ReverseAjax.dwr HTTP/1.1" 200 85 http-bio-9090-exec-10 60003
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:22:56:32 +0800] "POST /dwr/call/plainpoll/ReverseAjax.dwr HTTP/1.1" 200 199 http-bio-9090-exec-8 60003
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:22:56:36 +0800] "POST /dwr/call/plainpoll/ReverseAjax.dwr HTTP/1.1" 200 85 http-bio-9090-exec-10 60004

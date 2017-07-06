@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="dwr:war exploded">
+    <output-path>$PROJECT_DIR$/target/dwr</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dwr" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.directwebremoting:dwr:3.0.M1" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:cometd:6.1.4" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:jetty-util:6.1.4" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/dwr/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="dwr/web/Web" />
+    </root>
+  </artifact>
+</component>
